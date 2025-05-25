@@ -7,8 +7,8 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/movies-vite">
-      <App />
-    </BrowserRouter>
+  <BrowserRouter> {/* Убрали basename */}
+  <App />
+</BrowserRouter>
   </React.StrictMode>
 )
