@@ -1,0 +1,22 @@
+/* Добавим анимацию при наведении */
+.card.hoverable {
+  transition: transform 0.3s;
+}
+
+.card.hoverable:hover {
+  transform: translateY(-5px);
+}
+
+/* Ограничим ширину заголовка */
+.card-title.truncate {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Стили для модального окна */
+.modal {
+  max-width: 800px;
+  width: 90%;
+}
